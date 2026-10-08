@@ -1,0 +1,15 @@
+{
+  "AppVersion": "2.1.0.0",
+  "Title": "Living Meadow",
+  "Thumbnail": "thumbnail.jpg",
+  "Preview": null,
+  "Desc": "A procedural 3D meadow. Brush the grass, follow the wind, and drift from morning to a firefly-lit night. Fully offline.",
+  "Author": "Living Meadow",
+  "License": "MIT",
+  "Contact": null,
+  "Type": 1,
+  "FileName": "index.html",
+  "Arguments": "--pause-event true",
+  "IsAbsolutePath": false,
+  "Id": "living-meadow-1.0"
+}

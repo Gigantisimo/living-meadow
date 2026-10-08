@@ -1,0 +1,51 @@
+{
+  "timeMode": {
+    "type": "dropdown",
+    "value": 1,
+    "text": "Time Mode",
+    "items": ["Morning", "Golden", "Night", "Auto"]
+  },
+  "windStrength": {
+    "type": "slider",
+    "value": 45,
+    "min": 0,
+    "max": 100,
+    "step": 1,
+    "text": "Wind Strength (%)",
+    "help": "Spatial wind waves and occasional gentle gusts."
+  },
+  "mouseInteraction": {
+    "type": "checkbox",
+    "value": true,
+    "text": "Mouse Interaction"
+  },
+  "interactionRadius": {
+    "type": "slider",
+    "value": 21,
+    "min": 5,
+    "max": 50,
+    "step": 1,
+    "text": "Interaction Radius",
+    "help": "World-space brush radius, in tenths of a metre (21 = 2.1 m)."
+  },
+  "grassDensity": {
+    "type": "dropdown",
+    "value": 2,
+    "text": "Grass Density",
+    "items": ["Low", "Medium", "High", "Ultra"]
+  },
+  "graphicsQuality": {
+    "type": "dropdown",
+    "value": 2,
+    "text": "Graphics Quality",
+    "items": ["Low", "Medium", "High"]
+  },
+  "fireflies": { "type": "checkbox", "value": true, "text": "Fireflies" },
+  "targetFPS": {
+    "type": "dropdown",
+    "value": 1,
+    "text": "Target FPS",
+    "items": ["30", "60"]
+  },
+  "showUI": { "type": "checkbox", "value": false, "text": "Show UI" }
+}

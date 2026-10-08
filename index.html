@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#283b36" />
+    <meta name="description" content="An interactive, living 3D meadow. Brush the grass, follow the wind, and watch the light change." />
+    <title>Living Meadow</title>
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%232a4c30'/%3E%3Cpath d='M8 27L6 9l9 18L16 4l3 23L28 9l-5 18' fill='%23c1d194'/%3E%3C/svg%3E" />
+  </head>
+  <body>
+    <canvas id="meadow" aria-label="Interactive three-dimensional meadow"></canvas>
+    <div id="controls"></div>
+    <div id="error" role="alert" hidden></div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
